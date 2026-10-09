@@ -7,7 +7,7 @@
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
 |---|---|---|---|---|
-| 1 |pootapko| | | |
+| 1 |pootapko|qwebes| | |
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
@@ -21,3 +21,4 @@
 | GitHub-нік | Ім'я |
 |---|---|
 |pootapko|Софія Потапко|
+|qwebes|Побережник Віра|
