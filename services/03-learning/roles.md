@@ -8,13 +8,13 @@
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
 |---|---|---|---|---|
 | 1 |pootapko| | | |
-| 2 | |pootapko| | |
-| 3 | | |pootapko| |
-| 4 | | | |pootapko|
-| 5 |pootapko| | | |
-| 6 | |pootapko| | |
-| 7 | | |pootapko| |
-| 8 | | | |pootapko|
+| 2 | | | | |
+| 3 | | | | |
+| 4 | | | | |
+| 5 | | | | |
+| 6 | | | | |
+| 7 | | | | |
+| 8 | | | | |
 
 ## Склад команди
 
