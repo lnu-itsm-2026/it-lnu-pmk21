@@ -8,7 +8,7 @@
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
 |---|---|---|---|---|
 | 1 |pootapko|qwebes|marcivulia-sketch|yosi0711|
-| 2 |qwebes|marcivulia-sketch| | |
+| 2 |qwebes|marcivulia-sketch| |pootapko|
 | 3 | | | | |
 | 4 | | | | |
 | 5 | | | | |
