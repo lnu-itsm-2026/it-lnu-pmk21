@@ -7,7 +7,7 @@
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
 |---|---|---|---|---|
-| 1 |pootapko|qwebes|marcivulia-sketch| |
+| 1 |pootapko|qwebes|marcivulia-sketch|yosi0711|
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
@@ -23,3 +23,4 @@
 |pootapko|Софія Потапко|
 |qwebes|Побережник Віра|
 |marcivulia-sketch|Марців Юлія|
+|yosi0711|Скрипнюк Михайло|
