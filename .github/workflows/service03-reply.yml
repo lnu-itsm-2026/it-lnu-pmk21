@@ -10,9 +10,15 @@ jobs:
     permissions:
       issues: write
     steps:
-      - name: Leave a comment
+      - name: Check time and leave a comment
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE: ${{ github.event.issue.html_url }}
+          TZ: "Europe/Kyiv"
         run: |
-          gh issue comment "$ISSUE" --body "Дякуємо за звернення! Нагадуємо, що лінія підтримки цього сервісу працює за оновленим графіком: з **08:00 до 23:00**. Якщо ваш запит створено поза цими годинами, ми опрацюємо його на початку робочого дня."
+          HOUR=$(date +%-H)
+          if [ "$HOUR" -lt 8 ] || [ "$HOUR" -ge 23 ]; then
+            gh issue comment "$ISSUE" --body "Дякуємо за звернення! Наразі лінія підтримки не працює (наш графік: з **08:00 до 23:00**). Ми опрацюємо ваш запит на початку робочого дня."
+          else
+            echo "Зараз робочий час (година: $HOUR). Автовідповідь не надсилається."
+          fi
