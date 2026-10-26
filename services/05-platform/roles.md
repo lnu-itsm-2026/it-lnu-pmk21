@@ -8,8 +8,8 @@
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |Communications |
 |---|---|---|---|---|---|
-| 1 |sofiahai0 | sofiahai0| | |sofiahai0 |
-| 2 |sofiahai0 | sofiahai0| | | sofiahai0|
+| 1 |sofiahai0 | sofiahai0| Heelll|Heelll |sofiahai0 |
+| 2 |sofiahai0 | sofiahai0| Heelll|Heelll | sofiahai0|
 | 3 | | |sofiahai0 | sofiahai0| |
 | 4 | | | | | |
 | 5 | | | | | |
@@ -20,5 +20,5 @@
 ## Склад команди
 
 | GitHub-нік | Ім'я |
-|---|---|
+|Heelll|Калашнікова Юлія|
 |sofiahai0 |Гайванович Софія|
