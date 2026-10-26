@@ -10,7 +10,7 @@
 |---|---|---|---|---|---|
 | 1 |sofiahai0 | sofiahai0| Heelll|Heelll |sofiahai0 |
 | 2 |sofiahai0 | sofiahai0| Heelll|Heelll | sofiahai0|
-| 3 | | |sofiahai0 | sofiahai0| |
+| 3 |Heelll |Heelll |sofiahai0 | sofiahai0| |
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
@@ -20,5 +20,6 @@
 ## Склад команди
 
 | GitHub-нік | Ім'я |
-|Heelll|Калашнікова Юлія|
-|sofiahai0 |Гайванович Софія|
+|---|---|
+| sofiahai0 | Гайванович Софія|
+| Heelll | Калашнікова Юлія |
