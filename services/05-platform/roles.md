@@ -6,16 +6,16 @@
 
 Рольових слотів п'ять:
 
-| Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
-|---|---|---|---|---|
-| 1 |sofiahai0 | sofiahai0| | |
-| 2 |sofiahai0 | sofiahai0| | |
-| 3 | | |sofiahai0 | sofiahai0|
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
+| Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |Communications |
+|---|---|---|---|---|---|
+| 1 |sofiahai0 | sofiahai0| | |sofiahai0 |
+| 2 |sofiahai0 | sofiahai0| | | sofiahai0|
+| 3 | | |sofiahai0 | sofiahai0| |
+| 4 | | | | | |
+| 5 | | | | | |
+| 6 | | | | | |
+| 7 | | | | | |
+| 8 | | | | | |
 
 ## Склад команди
 
