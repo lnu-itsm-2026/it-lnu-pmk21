@@ -9,7 +9,7 @@
 |---|---|---|---|---|---|
 | 1 |pootapko|qwebes|marcivulia-sketch|yosi0711| |
 | 2 |qwebes|marcivulia-sketch| | | |
-| 3 | | | | | |
+| 3 | |qwebes| |qwebes| |
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
