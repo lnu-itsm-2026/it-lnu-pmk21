@@ -1,0 +1,57 @@
+# Runbook: Ліквідація аварійного блокування СУБД та керування плановим обслуговуванням (Database Maintenance & Lock Recovery)
+
+**Сервіс:** `05-platform`  
+**Роль відповідального:** Incident Manager / Risk & Knowledge Manager / Системний адміністратор (DBA)  
+**Призначення:** Покрокова інструкція для інженерного складу з виявлення, локалізації та безпечного припинення застряглих процесів обслуговування баз даних (`VACUUM FULL`, `REINDEX`), усунення ексклюзивних блокувань та розвантаження черги запитів (P1 / P2).  
+**Шлях у репозиторії:** `services/05-platform/runbooks/database-maintenance-recovery.md`
+
+---
+
+## 1. Симптоми та тригери
+
+Інструкція застосовується при виконанні одного з тригерів:
+* **P1 (Critical):** Виконання задач обслуговування баз даних у робочий час, наявність масової черги заблокованих запитів (> 100 сесій у стані очікування), затримки відповіді СУБД понад 10 секунд або масові таймаути авторизації у суміжних сервісах Moodle, SSO та Веб-пошті (аналог інциденту `#69`).
+* **P3 (Warning):** Тривалість виконання регламентної нічної задачі `db-maintenance` понад 2 години без впливу на користувачів або зростання диска журналів СУБД понад 80%.
+
+---
+
+## 2. Діагностика (Аналіз блокувань та стану СУБД)
+
+Виконайте послідовно команди в терміналі сервера баз даних:
+
+1. **Визначте найбільші застрягли сесії та тривалість їх виконання:**
+   ```bash
+   sudo -u postgres psql -c "SELECT pid, age(clock_timestamp(), query_start), usename, state, query FROM pg_stat_activity WHERE state != 'idle' ORDER BY age(clock_timestamp(), query_start) DESC LIMIT 10;"
+Знайдіть PID блокуючого процесу, який утримує AccessExclusiveLock:
+Bash
+sudo -u postgres psql -c "SELECT pid, relation::regclass, mode, granted FROM pg_locks WHERE granted = true AND mode = 'AccessExclusiveLock';"
+Перевірте загальну кількість заблокованих запитів у черзі:
+Bash
+sudo -u postgres psql -c "SELECT count(*) FROM pg_stat_activity WHERE wait_event IS NOT NULL;"
+Проаналізуйте навантаження на диск та статус журналів WAL:
+Bash
+df -h /var/lib/postgresql/
+3. Покроковий план відновлення
+Крок 1: Примусове скасування блокуючого процесу обслуговування
+Спробуйте м'яко зупинити застряглу сесію VACUUM FULL / REINDEX за допомогою її PID:
+Bash
+sudo -u postgres psql -c "SELECT pg_cancel_backend(<PID>);"
+Якщо процес не зупинився протягом 60 секунд, виконайте примусове завершення сесії:
+Bash
+sudo -u postgres psql -c "SELECT pg_terminate_backend(<PID>);"
+Крок 2: Контроль розвантаження черги запитів
+Відстежуйте процес зняття блокувань та зменшення черги запитів у режимі реального часу:
+Bash
+watch -n 2 'sudo -u postgres psql -c "SELECT count(*) FROM pg_stat_activity WHERE wait_event IS NOT NULL;"'
+(Очікуваний результат — черга заблокованих запитів має зменшитися до 0 протягом 1–2 хвилин).
+Крок 3: Відкат некоректного розкладу обслуговування
+Якщо регламентна задача була несанкціоновано перенесена на щоденний запуск:
+Відкрийте конфігуратор планувальника завдань (cron):
+Bash
+sudo nano /etc/cron.d/db-maintenance
+Відновіть еталонний розклад виконання «щонеділі о 02:00»:
+Plaintext
+0 2 * * 0 postgres /usr/local/bin/db-maintenance.sh
+Збережіть зміни та перезапустіть службу cron:
+Bash
+sudo systemctl restart cron
