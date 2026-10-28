@@ -9,8 +9,8 @@
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |Communications |
 |---|---|---|---|---|---|
 | 1 |sofiahai0 | sofiahai0| Heelll|Heelll |sofiahai0 |
-| 2 |sofiahai0 | sofiahai0| Heelll|Heelll | sofiahai0|
-| 3 |Heelll |Heelll |sofiahai0 | sofiahai0| Heelll |
+| 2 |Heelll |Heelll |sofiahai0 | sofiahai0| Heelll |
+| 3 |sofiahai0 |Heelll |sofiahai0 | Heelll| sofiahai0 |
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
