@@ -5,16 +5,16 @@
 
 Якщо в команді троє — хтось тримає дві ролі, і подвоєння теж ротується.
 
-| Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
-|---|---|---|---|---|
-| 1 |pootapko|qwebes|marcivulia-sketch|yosi0711|
-| 2 |qwebes|marcivulia-sketch| | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
+| Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge | Communications |
+|---|---|---|---|---|---|
+| 1 |pootapko|qwebes|marcivulia-sketch|yosi0711| |
+| 2 |qwebes|marcivulia-sketch| | | |
+| 3 | | | | | |
+| 4 | | | | | |
+| 5 | | | | | |
+| 6 | | | | | |
+| 7 | | | | | |
+| 8 | | | | | |
 
 ## Склад команди
 
