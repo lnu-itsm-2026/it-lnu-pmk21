@@ -13,8 +13,8 @@
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge | Communications |
 |---|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
+| 1 | |@mkzxsm | | | |
+| 2 | |@mkzxsm | | | |
 | 3 | | | | | |
 | 4 | | | | | |
 | 5 | | | | | |
@@ -28,4 +28,4 @@
 
 | GitHub-нік | Ім'я | Роль зараз |
 |---|---|---|
-| _(приклад)_ @ivan-petriv | Іван Петрів | Incident Manager |
+| @mkzxsm | Максим Мартинишин | Incident Manager |
