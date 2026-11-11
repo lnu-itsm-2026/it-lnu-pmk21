@@ -15,7 +15,7 @@
 |---|---|---|---|---|---|
 | 1 | |@mkzxsm | | | |
 | 2 | |@mkzxsm | | | |
-| 3 | | | | | |
+| 3 | @mkzxsm |@andriileno17 | | |@mkzxsm |
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
@@ -28,4 +28,5 @@
 
 | GitHub-нік | Ім'я | Роль зараз |
 |---|---|---|
-| @mkzxsm | Максим Мартинишин | Incident Manager |
+| @mkzxsm | Максим Мартинишин | Service Owner |
+| @andriileno17 | Андрій Леньо | Incedent Manager |
