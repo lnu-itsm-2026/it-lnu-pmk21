@@ -13,7 +13,7 @@
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge | Communications |
 |---|---|---|---|---|---|
-| 1 | | | | | |
+| 1 | @arsenpelchar| Krochak Ostap|Asatrian Erik |Hlynka Maksym |Krochak Ostap |
 | 2 | | | | | |
 | 3 | | | | | |
 | 4 | | | | | |
