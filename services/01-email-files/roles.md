@@ -13,7 +13,7 @@
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge | Communications |
 |---|---|---|---|---|---|
-| 1 | | | | | |
+| 1 | @densrmv| Денис Сримов|Service Owner |Communications | |
 | 2 | | | | | |
 | 3 | | | | | |
 | 4 | | | | | |
