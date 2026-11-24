@@ -19,8 +19,8 @@
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
-| 7 |@NDS412 | |@arsenpelchar-bot | | |
-| 8 | | | @NDS412|arsenpelchar-bot | |
+| 7 |@NDS412 | |@arsenpelchar-bot | | @Erikan357|
+| 8 | |@Erikan357 | @NDS412|arsenpelchar-bot | |
 
 ## Склад команди
 
@@ -31,3 +31,4 @@
 | _(приклад)_ @ivan-petriv | Іван Петрів | Incident Manager |
 | @NDS412 | Максим Глинка | Service owner
 | @arsenpelchar-bot| Пельчар Арсеній | Change Manager |
+| @Erikan357 | Ерік Асатрян | Communications |
