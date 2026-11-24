@@ -19,8 +19,8 @@
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
-| 7 | | @lomon23 | | | |
-| 8 | @lomon23 | | | | |
+| 7 | @NDS412 | @lomon23 | @arsenpelchar-bot | @arsenpelchar-bot | |
+| 8 | @lomon23 | | @NDS412 | @NDS412 | @arsenpelchar-bot |
 
 ## Склад команди
 
@@ -30,4 +30,5 @@
 |---|---|---|
 | _(приклад)_ @ivan-petriv | Іван Петрів | Incident Manager |
 | @lomon23 | Остап Крочак | Incident Manager |
-		
+| @NDS412 | Максим Глинка | Service Owner |
+| @arsenpelchar-bot | Пельчар Арсеній | Change Manager / Risk & Knowledge |
