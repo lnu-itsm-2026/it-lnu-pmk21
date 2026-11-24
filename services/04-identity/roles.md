@@ -19,8 +19,8 @@
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
-| 7 |@NDS412 | |@arsenpelchar-bot | | @Erikan357|
-| 8 | |@Erikan357 | @NDS412|arsenpelchar-bot | |
+| 7 | @NDS412 | @lomon23 | @arsenpelchar-bot | @arsenpelchar-bot | |
+| 8 | @lomon23 | | @NDS412 | @NDS412 | @arsenpelchar-bot |
 
 ## Склад команди
 
@@ -29,6 +29,6 @@
 | GitHub-нік | Ім'я | Роль зараз |
 |---|---|---|
 | _(приклад)_ @ivan-petriv | Іван Петрів | Incident Manager |
-| @NDS412 | Максим Глинка | Service owner
-| @arsenpelchar-bot| Пельчар Арсеній | Change Manager |
-| @Erikan357 | Ерік Асатрян | Communications |
+| @lomon23 | Остап Крочак | Incident Manager |
+| @NDS412 | Максим Глинка | Service Owner |
+| @arsenpelchar-bot | Пельчар Арсеній | Change Manager / Risk & Knowledge |
