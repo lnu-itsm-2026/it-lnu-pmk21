@@ -17,7 +17,7 @@
 | 2 | |@mkzxsm | | | |
 | 3 | @mkzxsm |@andriileno17 | | |@mkzxsm |
 | 4 |@andriileno17 |@shanfelshal | |@mkzxsm |@shanfelshal |
-| 5 | | | | | |
+| 5 |@shanfelshal |@mkzxsm |@mkzxsm |@andriileno17 |@andriileno17 |
 | 6 | | | | | |
 | 7 | | | | | |
 | 8 | | | | | |
@@ -28,6 +28,6 @@
 
 | GitHub-нік | Ім'я | Роль зараз |
 |---|---|---|
-| @mkzxsm | Максим Мартинишин | Risk & Knowledge |
-| @andriileno17 | Андрій Леньо | Service Owner |
-| @shanfelshal | Клевець Олександра | Incedent Manager |
+| @mkzxsm | Максим Мартинишин | Change Manager |
+| @andriileno17 | Андрій Леньо | Risk & Knowledge |
+| @shanfelshal | Клевець Олександра | Service Owner |
