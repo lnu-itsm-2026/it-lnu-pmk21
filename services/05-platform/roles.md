@@ -13,7 +13,7 @@
 | 3 |sofiahai0 |Heelll |sofiahai0 | Heelll| sofiahai0 |
 | 4 | Heelll |sofiahai0 | Heelll | Heelll |sofiahai0 |
 | 5 |sofiahai0 |sofiahai0 | Heelll|sofiahai0 |Heelll |
-| 6 | | | | | |
+| 6 | Heelll|Heelll | sofiahai0|sofiahai0 |Heelll |
 | 7 | | | | | |
 | 8 | | | | | |
 
