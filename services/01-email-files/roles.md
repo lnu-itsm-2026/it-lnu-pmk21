@@ -26,6 +26,10 @@
 
 Кожен дописує **свій рядок у кінець таблиці**. Чужі рядки не правимо.
 
-| GitHub-нік | Ім'я | Роль зараз |
+| GitHub-нік | Ім'я | Роль зараз | 
 |---|---|---|
 | _(приклад)_ @ivan-petriv | Іван Петрів | Incident Manager |
+| @densrmv | Денис Сримов | Service Owner | Communications | 
+| @Crr3d | Мирославський Артем | Risk & Knowledge |
+| | Березовський Роман | Change Manager |
+| | Паращич Максим | Incident Manager |
